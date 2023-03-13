@@ -1,0 +1,28 @@
+{
+  "name": "githubpabloggomez-ensolvers-challenge1",
+  "version": "1.0.0",
+  "description": "githubpabloggomez-ensolvers-challenge1",
+  "main": "index.js",
+  "scripts": {
+    "back-end": "npm run dev --prefix back-end",
+    "front-end": "npm start --prefix front-end",
+    "start": "concurrently \"npm run back-end\" \"npm run front-end\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElianaPranzetti/githubpabloggomez-ensolvers-challenge1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElianaPranzetti/githubpabloggomez-ensolvers-challenge1/issues"
+  },
+  "homepage": "https://github.com/ElianaPranzetti/githubpabloggomez-ensolvers-challenge1#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
